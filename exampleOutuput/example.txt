@@ -1,0 +1,26 @@
+DScanner v1.0 — Contoh Output
+
+URL: https://example.com/search?q=test&page=1
+
+WAF DETECTION:
+  ✔ WAF detected: cloudflare
+  HTTP Status: 200
+
+PARAMETER DISCOVERY:
+  ✔ Found 2 parameter(s) (URL: 2)
+  [MUTATE] Bypass q [01/02] [PASSED]
+    → q = "test" (URL)
+  [MUTATE] Bypass page [02/02] [PASSED]
+    → page = "1" (URL)
+
+PAYLOAD RECOMMENDATION:
+  [MUTATE] Bypass q [01/02] [PASSED]
+    → Suitable for: [XSS, SQLi]
+  [MUTATE] Bypass page [02/02] [PASSED]
+    → Suitable for: [SQLi, IDOR]
+
+SUMMARY:
+  URL          : https://example.com/search?q=test&page=1
+  Status       : 200
+  WAF          : cloudflare
+  Parameters   : 2
