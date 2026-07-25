@@ -39,3 +39,7 @@ pip install paramspider
 ```bash
 git clone https://github.com/username/DScanner.git
 cd DScanner
+pip install -r requirements.txt
+
+```bash
+🚀 Quick Start — Tutorial Command
