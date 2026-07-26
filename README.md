@@ -31,6 +31,16 @@ go install github.com/lc/gau/v2/cmd/gau@latest
 pip install paramspider
 
 ---
+## ☕ Support the Project
+
+If you find DScanner useful, consider supporting its development:
+
+### International
+- [PayPal](https://paypal.me/indika23)
+
+### Indonesia (Lokal)
+- [Saweria](https://saweria.co/Dikaputra12)
+
 
 ## 🚀 Instalasi
 
@@ -63,3 +73,35 @@ python dscanner.py -u https://example.com --no-color
 
 # Show all available options
 python dscanner.py --help
+
+$ python dscanner.py -u https://www.example.com/
+
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  ██████╗ ███████╗ ██████╗ █████╗ ███╗   ██╗███╗   ██╗███████╗██████╗ ║
+  ║  ...                                                       ║
+  ╚══════════════════════════════════════════════════════════════╝
+
+  ─── SCANNING TARGET ───
+  URL: https://www.example.com/
+
+  ─── WAF DETECTION ───
+  ✔ WAF detected: alibaba
+  HTTP Status: 307
+
+  ─── PARAMETER DISCOVERY ───
+  ✔ Found 1 parameter(s) (URL: 1)
+  MUTATE] Bypass cityEnName [01/01] [PASSED]
+    → cityEnName = "JKT" (URL)
+
+  ─── PAYLOAD RECOMMENDATION ───
+  MUTATE] Bypass cityEnName [01/01] [PASSED]
+    → Suitable for: [SQLi, XSS]
+
+  ─── SUMMARY ───
+  URL          : https://www.example.com/
+  Status       : 307
+  WAF          : alibaba
+  Parameters   : 1
+
+  ✅ Done.
+
