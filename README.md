@@ -36,7 +36,7 @@ pip install paramspider
 If you find DScanner useful, consider supporting its development:
 
 ### International
-- [PayPal](https://paypal.me/indika23)
+- [PayPal](https://paypal.me/INDIKA PUTRA PRAISAH)
 
 ### Indonesia (Lokal)
 - [Saweria](https://saweria.co/Dikaputra12)
