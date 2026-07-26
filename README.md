@@ -36,10 +36,30 @@ pip install paramspider
 
 ### 1. Clone Repository
 
+
+
 ```bash
 git clone https://github.com/username/DScanner.git
 cd DScanner
 pip install -r requirements.txt
+---
+# Interactive mode (easiest for beginners)
+python dscanner.py
 
-```bash
-🚀 Quick Start — Tutorial Command
+# Direct scan with URL
+python dscanner.py -u https://example.com
+
+# Scan with JSON output (for automation)
+python dscanner.py -u https://example.com --json
+
+# Only detect WAF (skip parameter discovery)
+python dscanner.py -u https://example.com --waf-only
+
+# Only discover parameters (skip WAF detection)
+python dscanner.py -u https://example.com --params-only
+
+# Disable colored output (for logs)
+python dscanner.py -u https://example.com --no-color
+
+# Show all available options
+python dscanner.py --help
