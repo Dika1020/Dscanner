@@ -51,9 +51,9 @@ If you find DScanner useful, consider supporting its development:
 ```bash
 git clone https://github.com/username/DScanner.git
 cd DScanner
-pip install -r requirements.txt
 python3 -m venv venv
 source venv/bin/acitvate
+pip install -r requirements.txt
 ---
 # Interactive mode (easiest for beginners)
 python dscanner.py
