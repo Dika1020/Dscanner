@@ -478,12 +478,12 @@ def main():
     if not args.json:
         print(f"""
 {Fore.CYAN}  ╔══════════════════════════════════════════════════════════════╗
-  ║  {Fore.RED}██████╗ {Fore.BLUE}███████╗{Fore.BLUE} ██████╗{Fore.BLUE} █████╗ {Fore.BLUE}███╗   ██╗{Fore.CYAN}███╗   ██╗███████╗██████╗ {Fore.CYAN}
-  ║  {Fore.RED}██╔══██╗{Fore.BLUE}██╔════╝{Fore.BLUE}██╔════╝{Fore.BLUE}██╔══██╗{Fore.BLUE}████╗  ██║{Fore.CYAN}████╗  ██║██╔════╝██╔══██╗{Fore.CYAN}
-  ║  {Fore.RED}██║  ██║{Fore.BLUE}███████╗{Fore.BLUE}██║     {Fore.BLUE}███████║{Fore.BLUE}██╔██╗ ██║{Fore.CYAN}██╔██╗ ██║█████╗  ██████╔╝{Fore.CYAN}
-  ║  {Fore.RED}██║  ██║{Fore.BLUE}╚════██║{Fore.BLUE}██║     {Fore.BLUE}██╔══██║{Fore.BLUE}██║╚██╗██║{Fore.CYAN}██║╚██╗██║██╔══╝  ██╔══██╗{Fore.CYAN}
-  ║  {Fore.RED}██████╔╝{Fore.BLUE}███████║{Fore.BLUE}╚██████╗{Fore.BLUE}██║  ██║{Fore.BLUE}██║ ╚████║{Fore.CYAN}██║ ╚████║███████╗██║  ██║{Fore.CYAN}
-  ║  {Fore.RED}╚═════╝ {Fore.BLUE}╚══════╝{Fore.BLUE} ╚═════╝{Fore.BLUE}╚═╝  ╚═╝{Fore.BLUE}╚═╝  ╚═══╝{Fore.CYAN}╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝{Fore.CYAN}
+  ║  {Fore.RED}██████╗ {Fore.CYAN}███████╗{Fore.CYAN} ██████╗{Fore.CYAN} █████╗ {Fore.CYAN}███╗   ██╗{Fore.CYAN}███╗   ██╗███████╗██████╗ {Fore.CYAN}
+  ║  {Fore.RED}██╔══██╗{Fore.CYAN}██╔════╝{Fore.CYAN}██╔════╝{Fore.CYAN}██╔══██╗{Fore.CYAN}████╗  ██║{Fore.CYAN}████╗  ██║██╔════╝██╔══██╗{Fore.CYAN}
+  ║  {Fore.RED}██║  ██║{Fore.CYAN}███████╗{Fore.CYAN}██║     {Fore.CYAN}███████║{Fore.CYAN}██╔██╗ ██║{Fore.CYAN}██╔██╗ ██║█████╗  ██████╔╝{Fore.CYAN}
+  ║  {Fore.RED}██║  ██║{Fore.CYAN}╚════██║{Fore.CYAN}██║     {Fore.CYAN}██╔══██║{Fore.CYAN}██║╚██╗██║{Fore.CYAN}██║╚██╗██║██╔══╝  ██╔══██╗{Fore.CYAN}
+  ║  {Fore.RED}██████╔╝{Fore.CYAN}███████║{Fore.CYAN}╚██████╗{Fore.CYAN}██║  ██║{Fore.CYAN}██║ ╚████║{Fore.CYAN}██║ ╚████║███████╗██║  ██║{Fore.CYAN}
+  ║  {Fore.RED}╚═════╝ {Fore.CYAN}╚══════╝{Fore.CYAN} ╚═════╝{Fore.CYAN}╚═╝  ╚═╝{Fore.CYAN}╚═╝  ╚═══╝{Fore.CYAN}╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝{Fore.CYAN}
   ║  {Fore.WHITE}🔍 WAF Detector + Parameter Finder + Payload Recommender{Fore.CYAN}
   ║  {Fore.YELLOW}📡 v1.0 — Auto Collab + CLI — by Dka{Fore.CYAN}                 
   ║  {Fore.LIGHTBLACK_EX}⚡ Auto-detects waybackurls, gau, paramspider, ffuf if installed{Fore.CYAN}
