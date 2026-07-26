@@ -25,7 +25,7 @@
 
 
 # Collab Tools
-sudo apt install ffuf -y
+- sudo apt install ffuf -y
 - go install github.com/tomnomnom/waybackurls@latest
 - go install github.com/lc/gau/v2/cmd/gau@latest
 - pip install paramspider
