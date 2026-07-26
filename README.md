@@ -94,7 +94,7 @@ $ python dscanner.py -u https://www.example.com/
 
   ─── WAF DETECTION ───
   ✔ WAF detected: alibaba
-  HTTP Status: 307
+  HTTP Status: 200
 
   ─── PARAMETER DISCOVERY ───
   ✔ Found 1 parameter(s) (URL: 1)
@@ -107,7 +107,7 @@ $ python dscanner.py -u https://www.example.com/
 
   ─── SUMMARY ───
   URL          : https://www.example.com/
-  Status       : 307
+  Status       : 200
   WAF          : alibaba
   Parameters   : 1
 
