@@ -84,7 +84,7 @@ $ python dscanner.py -u https://www.example.com/
   ║  ██████╔╝███████║╚██████╗██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║║
   ║  ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝║
   ║  🔍 WAF Detector + Parameter Finder + Payload Recommender
-  ║  📡 v4.1 — Auto Collab + CLI — by Dka                 
+  ║  📡 v1.0 — Auto Collab + CLI — by Dka                 
   ╚══════════════════════════════════════════════════════════════╝
 
   ─── SCANNING TARGET ───
