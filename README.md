@@ -97,7 +97,7 @@ $ python dscanner.py -u https://www.example.com/
   ─── PARAMETER DISCOVERY ───
   ✔ Found 1 parameter(s) (URL: 1)
   MUTATE] Bypass cityEnName [01/01] [PASSED]
-    → cityEnName = "JKT" (URL)
+    → cityEnName = JKT (URL)
 
   ─── PAYLOAD RECOMMENDATION ───
   MUTATE] Bypass cityEnName [01/01] [PASSED]
